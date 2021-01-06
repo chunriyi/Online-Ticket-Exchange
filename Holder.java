@@ -3,8 +3,8 @@ public class Holder extends Node{
 	private int num;
   
 	public Holder(int num, String name) {
-		this.name = name;
-		this.num = num;
+		this.name=name;
+		this.num=num;
 	}
   
 	public String getName() {  
