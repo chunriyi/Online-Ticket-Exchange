@@ -10,8 +10,6 @@
 //
 //--------------------------------------------------------------------
 
-package Assignment1;
-
 public class Game extends Node{
   
 	private int num;
