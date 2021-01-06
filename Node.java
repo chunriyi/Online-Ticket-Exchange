@@ -1,5 +1,3 @@
-package Assignment1;
-
 public class Node {
 	private Node next;	
 	
@@ -17,6 +15,5 @@ public class Node {
 	
 	public Node getNext() {
 		return next;
-	}
-	
+	}	
 }
