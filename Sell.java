@@ -10,17 +10,14 @@
 //
 //--------------------------------------------------------------------
 
-package Assignment1;
-
 public class Sell extends Node {
-
 
 	private String name;
 	private int num;
 	private int qua;
 	
 	public Sell (int num, int qua, String name) {
-		this.name=name;
+	    this.name=name;
 	    this.num=num;
 	    this.qua = qua;
 	}
@@ -43,5 +40,4 @@ public class Sell extends Node {
 	public int getQuantity() {  // return the quantity
 		return qua;
 	}
-
 }
