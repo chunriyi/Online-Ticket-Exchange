@@ -1,4 +1,3 @@
-package Assignment1;
 import java.io.*;
 
 public class File {
