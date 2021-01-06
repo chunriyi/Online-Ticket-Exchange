@@ -9,8 +9,6 @@
 //
 //--------------------------------------------------------------------
 
-package Assignment1;
-
 public class SellList extends GenericList{
   
 	public void addSell(String []token) {
