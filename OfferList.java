@@ -9,8 +9,6 @@
 //
 //--------------------------------------------------------------------
 
-package Assignment1;
-
 public class OfferList extends GenericList {
 	
 	// Add transaction info, which includes the game number, numbers of tickets,
