@@ -10,8 +10,6 @@
 //
 //--------------------------------------------------------------------
 
-package Assignment1;
-
 public class Offer extends Node {
 	private int game; // game number
 	private int quantity; // how many tickets are wanted
