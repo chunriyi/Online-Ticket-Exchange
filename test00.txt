@@ -1,0 +1,5 @@
+# this is test00.txt
+# testing some ADD transactions
+ADD Bigfoot, Billy
+ADD Chipman, Mark
+ADD Bigfoot, Billy

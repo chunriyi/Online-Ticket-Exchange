@@ -1,0 +1,15 @@
+# this is test01.txt
+# testing the BUY transaction
+ADD Bigfoot, Billy
+ADD Shier, Suzy
+# these should succeed
+BUY 5 2 Bigfoot, Billy
+BUY 41 4 Chipman, Mark
+# failure: invalid game
+BUY 42 2 Forst, Seward
+#failure: invalid member
+BUY 1 2 Bighead, Billy
+#failure: both game and member invalid
+BUY 100 1 Sheer, Suzy
+SEL 41 10 Chipman, Mark
+SEL 1 2 Von Essen, Tennyson

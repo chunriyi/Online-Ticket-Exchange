@@ -1,0 +1,13 @@
+# this is test02.txt
+# testing the CAN transaction
+ADD Bigfoot, Billy
+ADD Shier, Suzy
+BUY 5 2 Bigfoot, Billy
+BUY 41 4 Shier, Suzy
+# these should fail
+CAN 5 Bighead, Billy
+CAN 42 Bigfoot, Billy
+CAN 42 Sheer, Suzy
+# these should succeed
+CAN 5 Bigfoot, Billy
+CAN 41 Shier, Suzy

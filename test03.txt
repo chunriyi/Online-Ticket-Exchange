@@ -1,0 +1,12 @@
+# this is test03.txt
+# testing the REM transaction
+ADD Bigfoot, Billy
+ADD Shier, Suzy
+# these should fail
+REM Bighead, Billy
+REM Chipman, Mark
+# these should succeed
+REM Bigfoot, Billy
+REM Shier, Suzy
+# this should fail too
+REM Bigfoot, Billy

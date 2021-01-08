@@ -1,0 +1,9 @@
+# this is test04.txt
+# testing the SEL transaction
+ADD Bigfoot, Billy
+ADD Shier, Suzy
+# some good ones
+SEL 41 10 Chipman, Mark
+SEL 5 2 Von Essen, Tennyson
+BUY 5 2 Bigfoot, Billy
+BUY 41 4 Shier, Suzy
